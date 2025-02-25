@@ -3,14 +3,15 @@
 
 #include <string>
 
-struct PriceData
-{
+struct PriceData {
     std::string symbol;
     double price;
 };
 
-class MarketData{
+class MarketData {
 public:
     MarketData();
     PriceData getPrice(const std::string& symbol);
 };
+
+#endif
