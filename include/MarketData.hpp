@@ -2,6 +2,7 @@
 #define MARKET_DATA_HPP
 
 #include <string>
+#include <curl/curl.h>
 
 struct PriceData {
     std::string symbol;

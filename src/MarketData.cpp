@@ -1,6 +1,6 @@
 #include "MarketData.hpp"
 #include <curl/curl.h>
-#include <nlohmann/json.hpp>
+#include "json.hpp"
 using json = nlohmann::json;
 
 static size_t WriteCallback(void* contents, size_t size, size_t nmemb, std::string* s) {
